@@ -29,14 +29,16 @@ public class LearnER {
 	public void InitialDemo()
 	{
 		extent.createTest("Initial Test");
-		System.setProperty("webdriver.chrome.driver","D:\\Eclipse\\CourseWorkspace\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
-		String url="www.google.com";
+		String url="https://www.google.com/";
 		driver.get(url);
-		//System.out.println(driver.getTitle());	
+		System.out.println(driver.getTitle());	
 		
 		extent.flush();
+		System.out.println("flush");	
 		driver.quit();
+		System.out.println("quit");
 	}
 
 }
