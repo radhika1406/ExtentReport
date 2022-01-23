@@ -1,0 +1,11 @@
+{
+	"firstname": "Radhika",
+    "lasttime": "Gupta",
+    "id": 9,
+    "address": 
+ { "State" : "Delhi",
+   "ZIP" : 110011,
+   "City" : "Delhi"  
+ },
+    "phoneNumber": "1234567891"
+}
